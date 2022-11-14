@@ -32,7 +32,6 @@ class _ModalContainerState extends State<ModalContainer> {
                           child: ChoiceChip(
                             backgroundColor: Colors.green,
                             selectedColor: Colors.yellow,
-                            disabledColor: Colors.black,
                             selected: selectedCategory != null &&
                                 e.title == selectedCategory!.title,
                             label: Text(e.title),
