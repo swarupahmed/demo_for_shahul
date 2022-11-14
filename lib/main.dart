@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.orange,
       ),
-      home: const MyHomePage(title: 'Reataurant Manifest'),
+      home: const MyHomePage(title: 'Restaurant Manifest'),
     );
   }
 }
